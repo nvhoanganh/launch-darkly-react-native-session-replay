@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		1705796D12C8DF403AA5F303 /* Pods_LDSessionReplayRepro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56ABA51D6B47F53708C77FB /* Pods_LDSessionReplayRepro.framework */; };
+		70F36CE0688AC79918BBA6C0 /* libPods-LDSessionReplayRepro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D07FF2BB704B64D1283E3F81 /* libPods-LDSessionReplayRepro.a */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		E44F3C40E2661B763D1979A5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
@@ -23,8 +23,8 @@
 		5709B34CF0A7D63546082F79 /* Pods-LDSessionReplayRepro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDSessionReplayRepro.release.xcconfig"; path = "Target Support Files/Pods-LDSessionReplayRepro/Pods-LDSessionReplayRepro.release.xcconfig"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LDSessionReplayRepro/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LDSessionReplayRepro/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D07FF2BB704B64D1283E3F81 /* libPods-LDSessionReplayRepro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDSessionReplayRepro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F56ABA51D6B47F53708C77FB /* Pods_LDSessionReplayRepro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDSessionReplayRepro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1705796D12C8DF403AA5F303 /* Pods_LDSessionReplayRepro.framework in Frameworks */,
+				70F36CE0688AC79918BBA6C0 /* libPods-LDSessionReplayRepro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F56ABA51D6B47F53708C77FB /* Pods_LDSessionReplayRepro.framework */,
+				D07FF2BB704B64D1283E3F81 /* libPods-LDSessionReplayRepro.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
